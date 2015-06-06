@@ -1,0 +1,22 @@
+{
+    "name": "Cloudoki/Except-io-nal",
+    "description": "",
+    "authors": [
+        {
+            "name": "Cloudoki",
+            "email": "koen@cloudoki.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Cloudoki\\Guardian\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
