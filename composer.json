@@ -1,6 +1,9 @@
 {
     "name": "cloudoki/except-io-nal",
-    "description": "",
+    "description": "The Cloudoki PHP Exception extensions throw manageable errors in a MQ alignment",
+	"homepage": "http://github.com/Cloudoki/Except-io-nal",
+	"keywords": ["exceptions","MQ","3-layer","php"],
+    "license":"MIT",
     "authors": [
         {
             "name": "Cloudoki",
