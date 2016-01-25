@@ -1,5 +1,7 @@
 <?php
 
+namespace Cloudoki;
+
 /*
  *	Exception Classes
  */
