@@ -1,7 +1,10 @@
 # Except-io-nal
 
-The Cloudoki PHP Exception extensions throw manageable errors in a MQ alignment.
+The Cloudoki PHP Exception extensions throw manageable errors in a multi-tier MQ alignment.
 
+The main goal of this package is to correctly bubble exceptions from the worker to the api layer.
+On the API layer, cases for production and development environments can be implemented.
+ 
 
 ####Dependencies
 None so far.
@@ -28,6 +31,9 @@ While developing new model scopes, this exception can be useful to flag accident
 
 ####MissingSchemaException
 Schema's are used in the **Cloudoki/SchemaModel** package. To be released soon.
+
+####QuotaExceededException
+Some quota limitation has been exceeded. Used in eg. the Limiter package. 
 
 ####InvalidUserException
 A default authorisation error response.

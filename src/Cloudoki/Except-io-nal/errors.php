@@ -50,6 +50,11 @@ if (!class_exists ('MissingSchemaException'))
 	class MissingSchemaException extends Exception {}
 }
 
+if (!class_exists ('QuotaExceededException'))
+{
+	class QuotaExceededException extends Exception {}
+}
+
 if (!class_exists ('InvalidUserException'))
 {
 	class InvalidUserException extends Exception
