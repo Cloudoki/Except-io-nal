@@ -9,6 +9,21 @@ On the API layer, cases for production and development environments can be imple
 ####Dependencies
 None so far.
 
+---
+
+## Install
+
+1. Add the cloudoki/except-io-nal package to your composer file (dev-master is fine).
+1. The Classes load as `\Cloudoki\SomeException`.
+1. Load the custom exception handler in `App/Exceptions/Handler.php`, like so:
+
+```
+namespace App\Exceptions;
+
+use Cloudoki\Proc\ExceptionalHandler;
+
+class Handler extends ExceptionalHandler {}
+```
 
 ##Usage
 The package defines a set of **Exception** extensions. They are easy to emplement in any PHP environment, but are especially useful in a **MQ alignment** (API <-> Worker).
