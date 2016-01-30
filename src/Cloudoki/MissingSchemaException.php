@@ -1,6 +1,7 @@
 <?php
 
 namespace Cloudoki;
+use Exception;
 
 /*
  * Missing Schema Exception Class

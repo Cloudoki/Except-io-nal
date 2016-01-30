@@ -1,6 +1,7 @@
 <?php
 
 namespace Cloudoki;
+use Exception;
 
 /*
  * Quota Exceeded Exception Class
