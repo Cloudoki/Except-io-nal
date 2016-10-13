@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Cloudoki\\": "src/"
+            "Cloudoki\\": "src/Cloudoki/"
         }
     },
     "minimum-stability": "stable"
